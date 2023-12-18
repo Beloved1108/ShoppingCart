@@ -1,0 +1,13 @@
+<template>
+    <div>
+        this is shoppingcart page
+    </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
