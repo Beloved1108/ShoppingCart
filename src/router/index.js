@@ -3,13 +3,13 @@ import {createRouter,createWebHashHistory} from "vue-router"
 import ShoppingList from '../views/ShoppingList.vue'
 import ShoppingCart from '../views/ShoppingCart.vue'
 const routes = [{
-    path:'/list',
-    name:ShoppingList,
+    path: '/',
+    name:"home",
     component:ShoppingList
 },
 {
     path:'/cart',
-    name:ShoppingList,
+    name:"cart",
     component:ShoppingCart
 
 }]

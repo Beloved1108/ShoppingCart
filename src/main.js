@@ -9,7 +9,4 @@ import { createPinia } from 'pinia'
 const pinia = createPinia()
 const app = createApp(App)
 
-app.use(ElementPlus)
-app.use(router)
-app.use(pinia)
-app.mount('#app')
+app.use(router).use(pinia).use(ElementPlus).mount('#app')
